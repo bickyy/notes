@@ -1,0 +1,52 @@
+body{
+background-image: url(media/fall.jpg);
+}
+
+body {
+    background-image: linear-gradient(to right bottom,
+    rgba(93, 73, 202, 0.7),
+    rgb(230, 231, 135)
+    ),
+    url(fall.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center; 
+}
+
+div {
+    height: 100vh;
+    color: white;
+    font-size: 36px;
+}
+ul {
+    list-style: none;
+}
+
+li {
+    color: red;
+}
+li:last-child {
+    color: blueviolet;
+    font-size: 72px;
+    text-transform: uppercase;
+}
+
+li:nth-of-type(3) {
+    text-decoration: line-through;
+    color: purple;
+}
+
+#test2 {
+    color:red;
+}
+.test{
+    color: teal;
+}
+
+div h2 {
+    color: brown;
+}
+
+ul + h2 {
+    color:slategrey; 
+}
