@@ -1,0 +1,25 @@
+body { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}/* need that ^ */
+
+.header {
+    height: 100vh;
+    background-color: blueviolet;
+    /* margin: 10px; */
+    /* display: block;  */
+    position: relative; 
+    /* by itself it does nothing^ */
+}
+
+.header-text {
+    position: absolute;
+    /* ^by itself it does nothing it needs the one on top */
+    /* when u add position absolute h1 is remove from the normal flow of content */
+    top: 40% ;
+    left: 50% ;
+    transform: translate(-50%, -50%);
+}
+
+
